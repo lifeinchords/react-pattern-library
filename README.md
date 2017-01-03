@@ -1,3 +1,56 @@
+
+TODO
+----
+- try mo.js
+----- simple burst: https://codepen.io/rkhayat/pen/aBpMRr?editors=1010
+----- burst: https://codepen.io/sol0mka/pen/PboNZg/?editors=0010
+----- incorporate transition: https://codepen.io/sol0mka/pen/8a4d6ffc83e6c8633b26f0691055cdad
+
+- set up PostCss
+- set up to use Lost
+- get simple example with container for grid with flexbox
+- try JSX
+- precss vs (postcss simplevars + postcss atimport): https://github.com/jonathantneal/precss
+
+- animate component with GSAP
+----- (refs)[https://greensock.com/forums/topic/12093-react-and-gsap/page-2]
+----- https://codepen.io/cjke/pen/qqWJzv?editors=0010
+- try out (GSAP enhancer)[https://github.com/azazdeaz/react-gsap-enhancer]. Necessary?
+- migrate cards from element-library repo
+- more complex react + GSAP: https://codepen.io/azazdeaz/pen/yYavVK?editors=0010
+
+- try StoryBook: https://getstorybook.io/docs/react-storybook/addons/introduction
+
+
+
+
+
+
+REFERENCES
+-----------
+
+https://github.com/postcss/postcss-loader/issues/92
+https://github.com/karlhorky/create-react-app/commit/b260b4630b2f710ad7de9757509fb430e9ec3747
+https://gist.github.com/sokra/27b24881210b56bbaff7
+https://github.com/kriasoft/react-static-boilerplate/blob/master/webpack.config.js
+https://css-tricks.com/css-modules-part-3-react/
+
+
+
+
+
+
+
+
+
+
+
+
+-----------
+
+BASED ON THIS YEOMAN GENERATOR:
+
+
 # React Static Boilerplate &nbsp; [![Build Status](http://img.shields.io/travis/kriasoft/react-static-boilerplate/master.svg?style=flat-square)](https://travis-ci.org/kriasoft/react-static-boilerplate) [![To-do](https://img.shields.io/waffle/label/kriasoft/react-static-boilerplate/to-do.svg?style=flat-square)](https://waffle.io/kriasoft/react-static-boilerplate) [![Online Chat](http://img.shields.io/badge/chat_room-%23react--static--boilerplate-blue.svg?style=flat-square)](https://gitter.im/kriasoft/react-static-boilerplate)
 
 > [**React Static Boilerplate**](https://github.com/kriasoft/react-static-boilerplate) (RSB) is an
