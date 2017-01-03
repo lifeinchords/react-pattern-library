@@ -6,11 +6,14 @@ class Paragraph extends React.Component {
 	componentDidMount(){
 	  document.addEventListener( 'click' , (e) => {
 
-	  	let timeline = new mojs.Timeline();
+	  	// from: https://codepen.io/rkhayat/pen/aBpMRr
+	  	// let timeline = new mojs.Timeline();
       burst.tune({ x: e.pageX, y: e.pageY })
-			timeline.add(burst);
-			new MojsPlayer({ add: timeline });
-			timeline.replay(); 
+      			.replay();
+
+			// timeline.add(burst);
+			// new MojsPlayer({ add: timeline });
+			// timeline.replay(); 
 	  });
 	}
 
