@@ -1,24 +1,21 @@
 
 TODO
 ----
-- try mo.js
------ simple burst: https://codepen.io/rkhayat/pen/aBpMRr?editors=1010
------ burst: https://codepen.io/sol0mka/pen/PboNZg/?editors=0010
------ incorporate transition: https://codepen.io/sol0mka/pen/8a4d6ffc83e6c8633b26f0691055cdad
-
-- set up PostCss
+- animate component test with GSAP
+- set up PostCSS
 - set up to use Lost
 - get simple example with container for grid with flexbox
 - try JSX
-- precss vs (postcss simplevars + postcss atimport): https://github.com/jonathantneal/precss
+- mojs: wire debugging tools: Player + Curve Editor 
+- mojs: incorporate transition: https://codepen.io/sol0mka/pen/8a4d6ffc83e6c8633b26f0691055cdad
 
-- animate component with GSAP
 ----- (refs)[https://greensock.com/forums/topic/12093-react-and-gsap/page-2]
 ----- https://codepen.io/cjke/pen/qqWJzv?editors=0010
 - try out (GSAP enhancer)[https://github.com/azazdeaz/react-gsap-enhancer]. Necessary?
 - migrate cards from element-library repo
 - more complex react + GSAP: https://codepen.io/azazdeaz/pen/yYavVK?editors=0010
 
+- precss vs (postcss simplevars + postcss atimport): https://github.com/jonathantneal/precss
 - try StoryBook: https://getstorybook.io/docs/react-storybook/addons/introduction
 
 

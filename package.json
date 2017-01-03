@@ -12,6 +12,7 @@
     "fastclick": "^1.0.6",
     "gsap": "^1.19.0",
     "history": "^3.0.0",
+    "lodash": "^4.17.4",
     "lost": "^8.0.0",
     "mo-js": "^0.288.1",
     "mojs-curve-editor": "^1.4.6",

@@ -1,17 +1,16 @@
 import React from 'react';
 import mojs from 'mo-js';
-// import MojsPlayer from 'mojs-player';
-// import MojsCurveEditor from 'mojs-curve-editor';
-
 
 class Paragraph extends React.Component {
 
-
 	componentDidMount(){
 	  document.addEventListener( 'click' , (e) => {
-	     burst
-	         .tune({ x: e.pageX, y: e.pageY })
-	         .replay();
+
+	  	let timeline = new mojs.Timeline();
+      burst.tune({ x: e.pageX, y: e.pageY })
+			timeline.add(burst);
+			new MojsPlayer({ add: timeline });
+			timeline.replay(); 
 	  });
 	}
 
@@ -21,7 +20,6 @@ class Paragraph extends React.Component {
 }
 
 export default Paragraph;
-
 
 
 const burst = new mojs.Burst({

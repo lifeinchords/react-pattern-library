@@ -4,7 +4,6 @@ title: React Static Boilerplate
 
 ## Welcome!
 
-This is a single-page application powered by React and Material Design Lite (MDL).
+This content comes from a Markdown file at `/pages/home/index.md`
 
-https://github.com/kriasoft/react-static-boilerplate
 
