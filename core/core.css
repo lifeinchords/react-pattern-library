@@ -23,6 +23,8 @@ $xl: (width >= 90rem);
 
 $red: red;
 
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400');
+
 /* 	
 		Some best-practice CSS that's useful for most apps
 		Just remove them if they're not what you want
@@ -42,4 +44,6 @@ body {
 *:before,
 *:after {
   box-sizing: inherit;
+  font-family: 'Lato', sans-serif;
+  
 }

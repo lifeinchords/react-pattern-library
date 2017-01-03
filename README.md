@@ -14,13 +14,18 @@ TODO
 - migrate card design from element-library repo
 - JSX?
 
+- React: try StoryBook: https://getstorybook.io/docs/react-storybook/addons/introduction
 
 
 
 LATER
 -----------
+fix warnings
+warning: CRLF will be replaced by LF in public/index.html.
+The file will have its original line endings in your working directory.
+
+
 - mojs: wire debugging tools: Player + Curve Editor 
-- PostCSS: add Lost
 - React: try EQ/Container Query for Card: https://d6u.github.io/react-container-query/
 - mojs: incorporate transition: https://codepen.io/sol0mka/pen/8a4d6ffc83e6c8633b26f0691055cdad
 - mojs: alt technique: https://codepen.io/sol0mka/pen/PboNZg/?editors=0010
@@ -30,21 +35,18 @@ LATER
 - mojs: alt, with ref? : https://codepen.io/rkhayat/pen/f6282ec18faf2fe783512c818db79ae5?editors=1010
 - mojs: alt, pub/sub? : https://codepen.io/lifeinchords/pen/vgYEyb?editors=0010
 - mojs: declarative animations: https://github.com/legomushroom/mojs/issues/96
-- PostCSS: set up precss vs (postcss simplevars + postcss atimport): https://github.com/jonathantneal/precss
-- React: try StoryBook: https://getstorybook.io/docs/react-storybook/addons/introduction
 - Flocking: sound on expand/contract Card
 
 
 OQ
 ----
 - where to put reset/global CSS? https://github.com/css-modules/css-modules/pull/65
-- 
 
 
 REFERENCES + DONE
 -----------
 - PostCSS: set up vars, @imports
-
+- PostCSS: set up precss vs (postcss simplevars + postcss atimport): https://github.com/jonathantneal/precss
 - GSAP: simple test to see if wiring works: https://codepen.io/lifeinchords/pen/ggOYNX
 - PostCSS: does it work with this build system/boilerplate?
 - PostCSS: set up to compile / use Lost grid
@@ -64,7 +66,7 @@ https://facebook.github.io/react/docs/components-and-props.html
 http://lostgrid.org/docs.html#lost-flex-container
 
 http://formidable.com/open-source/radium/
-
+https://www.kirupa.com/react/styling_in_react.htm
 
 
 
