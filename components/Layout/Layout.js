@@ -13,6 +13,8 @@ import cx from 'classnames';
 import Header from './Header';
 import Footer from '../Footer';
 import s from './Layout.css';
+import Paragraph from '../Paragraph';
+
 
 class Layout extends React.Component {
 
@@ -33,6 +35,7 @@ class Layout extends React.Component {
       <div className="mdl-layout mdl-js-layout" ref={node => (this.root = node)}>
         <div className="mdl-layout__inner-container">
           <Header />
+          <Paragraph  text="paragraph text!" />
           <main className="mdl-layout__content">
             <div {...this.props} className={cx(s.content, this.props.className)} />
             <Footer />
