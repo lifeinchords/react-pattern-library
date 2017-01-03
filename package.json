@@ -13,7 +13,7 @@
     "gsap": "^1.19.0",
     "history": "^3.0.0",
     "lost": "^8.0.0",
-    "mojs": "^0.2.0",
+    "mo-js": "^0.288.1",
     "mojs-curve-editor": "^1.4.6",
     "mojs-player": "^0.43.16",
     "react": "^15.2.1",
