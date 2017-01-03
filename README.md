@@ -1,24 +1,36 @@
-
 TODO
 ----
-- animate component test with GSAP
-- set up PostCSS
-- set up to use Lost
-- get simple example with container for grid with flexbox
-- try JSX
+- GSAP: simple test to see if wiring works
+
+- PostCSS: does it work with this build system/boilerplate?
+- PostCSS: set up to compile / use Lost grid
+- React: wire Lost grid container to app context, holds Card
+- React: make card RWD
+
+- GSAP: binding to refs? : https://greensock.com/forums/topic/12093-react-and-gsap/page-2
+- GSAP: try https://codepen.io/cjke/pen/qqWJzv?editors=0010
+- GSAP: try Enhancer thing. Necessary? https://github.com/azazdeaz/react-gsap-enhancer
+- GSAP: more complex: https://codepen.io/azazdeaz/pen/yYavVK?editors=0010
+- GSAP: Evaluate: https://github.com/hzdg/gsap-react-plugin
+
 - mojs: wire debugging tools: Player + Curve Editor 
-- mojs: incorporate transition: https://codepen.io/sol0mka/pen/8a4d6ffc83e6c8633b26f0691055cdad
-
------ (refs)[https://greensock.com/forums/topic/12093-react-and-gsap/page-2]
------ https://codepen.io/cjke/pen/qqWJzv?editors=0010
-- try out (GSAP enhancer)[https://github.com/azazdeaz/react-gsap-enhancer]. Necessary?
 - migrate cards from element-library repo
-- more complex react + GSAP: https://codepen.io/azazdeaz/pen/yYavVK?editors=0010
+- JSX?
 
-- precss vs (postcss simplevars + postcss atimport): https://github.com/jonathantneal/precss
-- try StoryBook: https://getstorybook.io/docs/react-storybook/addons/introduction
-
-
+LATER
+-----------
+- React: try EQ/Container Query for Card
+- mojs: incorporate transition: https://codepen.io/sol0mka/pen/8a4d6ffc83e6c8633b26f0691055cdad
+- mojs: alt technique: https://codepen.io/sol0mka/pen/PboNZg/?editors=0010
+- mojs: with SVG's (and burgers): 
+-- https://codepen.io/sdras/pen/ed0f4ff7db0505a366a673cd5ec0d3e6
+-- https://gist.github.com/sokra/27b24881210b56bbaff7
+- mojs: alt, with ref? : https://codepen.io/rkhayat/pen/f6282ec18faf2fe783512c818db79ae5?editors=1010
+- mojs: alt, pub/sub? : https://codepen.io/lifeinchords/pen/vgYEyb?editors=0010
+- mojs: declarative animations: https://github.com/legomushroom/mojs/issues/96
+- PostCSS: set up precss vs (postcss simplevars + postcss atimport): https://github.com/jonathantneal/precss
+- React: try StoryBook: https://getstorybook.io/docs/react-storybook/addons/introduction
+- Flocking: sound on expand/contract Card
 
 
 
@@ -28,12 +40,15 @@ REFERENCES
 
 https://github.com/postcss/postcss-loader/issues/92
 https://github.com/karlhorky/create-react-app/commit/b260b4630b2f710ad7de9757509fb430e9ec3747
-https://gist.github.com/sokra/27b24881210b56bbaff7
 https://github.com/kriasoft/react-static-boilerplate/blob/master/webpack.config.js
 https://css-tricks.com/css-modules-part-3-react/
 
+More Mojs + React examples: https://github.com/legomushroom/mojs/issues/73
+https://gist.github.com/legomushroom/c03300cda5777bd5c4bb61d1c2012b8f
 
+https://greensock.com/forums/topic/12093-react-and-gsap/page-2
 
+https://github.com/legomushroom/mojs/issues/73
 
 
 

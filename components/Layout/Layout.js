@@ -5,6 +5,7 @@ import Footer from '../Footer';
 import s from './Layout.css';
 import Paragraph from '../Paragraph';
 import Card from '../Card';
+import Example from '../Counter';
 
 
 class Layout extends React.Component {
@@ -27,6 +28,7 @@ class Layout extends React.Component {
         <div className="mdl-layout__inner-container">
           <Header />
           <Card />
+          <Example/>
           <Paragraph  text="paragraph text!" />
           <main className="mdl-layout__content">
             <div {...this.props} className={cx(s.content, this.props.className)} />

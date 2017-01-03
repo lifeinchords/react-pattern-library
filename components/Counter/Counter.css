@@ -1,0 +1,16 @@
+.Box {
+  width: 150px;
+  height: 150px;
+  background: #90CAF9;
+  text-align: center;
+  line-height: 150px;
+  font-size: 60px;
+  color: #0D47A1;
+  border: 1px solid #0D47A1;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+}

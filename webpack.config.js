@@ -48,6 +48,10 @@ const config = {
     sourcePrefix: '  ',
   },
 
+  externals: {
+     'TweenMax': 'TweenMax'
+  },
+
   // Switch loaders to debug or release mode
   debug: isDebug,
 
