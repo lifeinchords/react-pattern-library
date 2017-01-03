@@ -3,6 +3,7 @@
 /* TODO: this doesnt work. why? */
 p {
 
+	color: $red;
   min-height: 30rem;  
 
   @media ($sm) { 

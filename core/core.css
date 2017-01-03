@@ -21,6 +21,7 @@ $md: (width >= 36rem);
 $lg: (width >= 60rem);
 $xl: (width >= 90rem);
 
+$red: red;
 
 /* 	
 		Some best-practice CSS that's useful for most apps
