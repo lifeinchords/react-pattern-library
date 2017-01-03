@@ -1,6 +1,9 @@
 import React from 'react';
 import mojs from 'mo-js';
 
+import p from './Paragraph.css';
+
+
 class Paragraph extends React.Component {
 
 	componentDidMount(){

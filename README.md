@@ -1,11 +1,7 @@
 TODO
 ----
-- GSAP: simple test to see if wiring works
 
-- PostCSS: does it work with this build system/boilerplate?
-- PostCSS: set up to compile / use Lost grid
 - React: wire Lost grid container to app context, holds Card
-- React: make card RWD
 
 - GSAP: binding to refs? : https://greensock.com/forums/topic/12093-react-and-gsap/page-2
 - GSAP: try https://codepen.io/cjke/pen/qqWJzv?editors=0010
@@ -13,13 +9,19 @@ TODO
 - GSAP: more complex: https://codepen.io/azazdeaz/pen/yYavVK?editors=0010
 - GSAP: Evaluate: https://github.com/hzdg/gsap-react-plugin
 
-- mojs: wire debugging tools: Player + Curve Editor 
-- migrate cards from element-library repo
+- React: make card RWD, https://github.com/contra/react-responsive https://gist.github.com/nickpiesco/9bef21b4f9e236b4430e
+
+- migrate card design from element-library repo
 - JSX?
+
+
+
 
 LATER
 -----------
-- React: try EQ/Container Query for Card
+- mojs: wire debugging tools: Player + Curve Editor 
+- PostCSS: add Lost
+- React: try EQ/Container Query for Card: https://d6u.github.io/react-container-query/
 - mojs: incorporate transition: https://codepen.io/sol0mka/pen/8a4d6ffc83e6c8633b26f0691055cdad
 - mojs: alt technique: https://codepen.io/sol0mka/pen/PboNZg/?editors=0010
 - mojs: with SVG's (and burgers): 
@@ -33,10 +35,19 @@ LATER
 - Flocking: sound on expand/contract Card
 
 
+OQ
+----
+- where to put reset/global CSS? https://github.com/css-modules/css-modules/pull/65
+- 
 
 
-REFERENCES
+REFERENCES + DONE
 -----------
+- PostCSS: set up vars, @imports
+
+- GSAP: simple test to see if wiring works: https://codepen.io/lifeinchords/pen/ggOYNX
+- PostCSS: does it work with this build system/boilerplate?
+- PostCSS: set up to compile / use Lost grid
 
 https://github.com/postcss/postcss-loader/issues/92
 https://github.com/karlhorky/create-react-app/commit/b260b4630b2f710ad7de9757509fb430e9ec3747
@@ -49,10 +60,10 @@ https://gist.github.com/legomushroom/c03300cda5777bd5c4bb61d1c2012b8f
 https://greensock.com/forums/topic/12093-react-and-gsap/page-2
 
 https://github.com/legomushroom/mojs/issues/73
+https://facebook.github.io/react/docs/components-and-props.html
+http://lostgrid.org/docs.html#lost-flex-container
 
-
-
-
+http://formidable.com/open-source/radium/
 
 
 

@@ -1,0 +1,43 @@
+@import '../../core/core.css';
+
+/* TODO: this doesnt work. why? */
+p {
+
+  min-height: 30rem;  
+
+  @media ($sm) { 
+    lost-column: 4/4; 
+    background: yellow;
+  	color: green;
+  	font-size: 3rem;
+  }
+ 
+  @media ($md) { 
+    lost-column: 4/6; 
+    lost-offset: -1/6; 
+    background: red;
+  	color: blue;
+  	font-size: 3.25rem;
+
+  }
+ 
+  @media ($lg) { 
+    lost-column: 12/20; 
+    lost-offset: -4/20; 
+      background: green;
+  	color: white;
+  	font-size: 3.5rem;
+
+  }
+ 
+  @media ($xl) { 
+    lost-column: 14/32; 
+    lost-offset: -9/32; 
+      background: yellow;
+  	color: black;
+  	font-size: 4rem;
+
+  }
+
+  
+}

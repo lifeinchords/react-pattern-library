@@ -1,0 +1,44 @@
+/* pattern from : https://github.com/davezuko/react-redux-starter-kit/blob/master/src/styles/core.scss */
+/* @import '~normalize.css/normalize'; */
+
+/* 
+    Lost grid system
+    https://github.com/peterramsing/lost
+
+    Conventions:
+      - Put lost properties first in each;
+      
+    Every Lost Grid used will use these settings, instead of their defaults.
+    These settings work across files. 
+*/
+@lost flexbox flex;
+@lost gutter 1rem;
+
+
+/* faux Sass vars, via PostCSS */
+$sm: (width >= 1rem);
+$md: (width >= 36rem);
+$lg: (width >= 60rem);
+$xl: (width >= 90rem);
+
+
+/* 	
+		Some best-practice CSS that's useful for most apps
+		Just remove them if they're not what you want
+*/
+ html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
